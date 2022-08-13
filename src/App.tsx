@@ -20,11 +20,7 @@ const App = () => {
   // render all routes using useRoutes hook
   const renderRoutes = useRoutes(routes);
 
-  return (
-    <ThemeLayout>
-      {renderRoutes}
-    </ThemeLayout>
-  );
-}
+  return <ThemeLayout>{renderRoutes}</ThemeLayout>;
+};
 
 export default App;
